@@ -17,4 +17,8 @@ export class HomeComponent implements OnInit {
       fragment: 'loading',
     });
   }
+
+  onLoadServers() {
+    this.router.navigate(['/servers']);
+  }
 }
